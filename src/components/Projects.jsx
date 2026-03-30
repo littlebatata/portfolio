@@ -1,41 +1,30 @@
 import { useState } from 'react'
 import './Projects.css'
 
-// 🔧 TODO: Replace with your real projects.
-// Move items between ONGOING and COMPLETED as they progress.
-// Fields:
-//   emoji     — placeholder thumbnail (replace with image path once you have screenshots)
-//   title     — project name
-//   tags      — engine / tech / genre chips
-//   description — one or two sentences
-//   image     — optional: '/your-screenshot.png' (place file in /public)
-//   link      — optional: 'https://yourusername.itch.io/game-name'
-//   role      — your role on the project (useful for collaborations)
-
 const ONGOING = [
-  {
-    emoji: '🏡',
-    title: 'Cozy Cabin Demo',
-    tags: ['Godot', 'GDScript', 'Pixel Art', 'Top-down'],
-    description:
-      'A relaxing exploration demo set in a snowy mountain cabin. Collect items, tend to plants, and chat with friendly neighbours. First complete slice currently in development.',
-    role: 'Solo Developer',
-    link: null,
-  },
-  {
-    emoji: '🐾',
-    title: 'Pet Companion Prototype',
-    tags: ['Unity', 'C#', '2D'],
-    description:
-      'A virtual-pet prototype where a small critter follows you through a hand-drawn world and reacts dynamically to weather and time of day.',
-    role: 'Solo Developer',
-    link: null,
-  },
+  // {
+  //   emoji: '🏡',
+  //   title: 'Cozy Cabin Demo',
+  //   tags: ['Godot', 'GDScript', 'Pixel Art', 'Top-down'],
+  //   description:
+  //     'A relaxing exploration demo set in a snowy mountain cabin. Collect items, tend to plants, and chat with friendly neighbours. First complete slice currently in development.',
+  //   role: 'Solo Developer',
+  //   link: null,
+  // },
+  // {
+  //   emoji: '🐾',
+  //   title: 'Pet Companion Prototype',
+  //   tags: ['Unity', 'C#', '2D'],
+  //   description:
+  //     'A virtual-pet prototype where a small critter follows you through a hand-drawn world and reacts dynamically to weather and time of day.',
+  //   role: 'Solo Developer',
+  //   link: null,
+  // },
 ]
 
 const COMPLETED = [
   {
-    emoji: '🌾',
+    emoji: '',
     title: 'Veilbound',
     tags: ['Unity', 'C#', 'Visual Novel'],
     description:

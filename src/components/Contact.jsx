@@ -15,7 +15,7 @@ export default function Contact() {
         {/* Social links */}
         <div className="contact__socials">
           <a
-            href="mailto:dani.dw@outlook.com"
+            href="mailto:dani.dwatson@outlook.com"
             className="contact__social-email"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,21 +23,21 @@ export default function Contact() {
             Email
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/littlebatata"
             className="contact__social-link"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>
-          <a
+          {/* <a
             href="https://yourusername.itch.io"
             className="contact__social-link"
             target="_blank"
             rel="noopener noreferrer"
           >
             itch.io
-          </a>
+          </a> */}
           <a
             href="https://linkedin.com/in/danieladwatson"
             className="contact__social-link"
