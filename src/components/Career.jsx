@@ -11,7 +11,7 @@ const TIMELINE = [
     color: 'var(--color-primary)',
     current: true,
     description:
-      'Designing, developing, and coordinating the SAP Preferred Success Service Recommendation AI system, including data architecture, AI agent design, and platform development. Supporting more than 25 SAP solutions in adopting the system for diverse audiences and helping customers navigate SAP’s cloud adoption landscape.',
+      'See projects above.',
     highlights: ['C#', 'Unity', 'Game Development', '2D Art'], 
   },
   {
